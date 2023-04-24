@@ -22,7 +22,7 @@ public class MasterDataSourceConfig {
 
     // 精确到 master 目录，以便跟其他数据源隔离
     static final String PACKAGE = "com.example.demo.project.mapper.master";
-    static final String MAPPER_LOCATION = "classpath:mybatis/mapper/master/*.xml";
+    static final String MAPPER_LOCATION = "classpath:mybatis/master/*.xml";
 
     @Value("${master.datasource.url}")
     private String url;

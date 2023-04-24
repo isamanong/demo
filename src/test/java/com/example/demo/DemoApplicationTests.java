@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.project.Demo;
 import com.example.demo.project.mapper.cluster.ClusterMapper;
 import com.example.demo.project.mapper.master.MasterMapper;
 import org.junit.jupiter.api.Test;
@@ -16,8 +17,6 @@ class DemoApplicationTests {
 	private MasterMapper masterMapper;
 	@Test
 	void contextLoads()  {
-		clusterMapper.get().forEach(System.out::println);
-		masterMapper.get().forEach(System.out::println);
 	}
 
 }

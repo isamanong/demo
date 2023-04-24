@@ -21,7 +21,7 @@ public class ClusterDataSourceConfig {
 
     // 精确到 cluster 目录，以便跟其他数据源隔离
     static final String PACKAGE = "com.example.demo.project.mapper.cluster";
-    static final String MAPPER_LOCATION = "classpath:mybatis/mapper/cluster/*.xml";
+    static final String MAPPER_LOCATION = "classpath:mybatis/cluster/*.xml";
 
     @Value("${cluster.datasource.url}")
     private String url;

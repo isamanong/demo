@@ -1,9 +1,14 @@
 package com.example.demo.project.domain;
 
 import lombok.Data;
+import lombok.experimental.SuperBuilder;
 
 @Data
-public class User {
+@SuperBuilder
+public class User extends Base {
 	private Integer id;
-	private String name;
+	private String name0;
+	private String name1;
+	private String name2;
+	private String name3;
 }
